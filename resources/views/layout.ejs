@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <nav class="container mx-auto flex items-center justify-between py-4">
+    <div>
+        <img src="/img/logo.png" height="50" width="50">
+    </div>
+    <div>
+        <ul class="flex items-center">
+            <li class=ml-6><a href="#">Menu</a></li>
+            <li class=ml-6><a href="#">Offers</a></li>
+            <li class=ml-6><a href="/register">Register</a></li>
+            <li class=ml-6><a href="login">Login</a></li>
+            <li class=ml-6>
+                <a href="#" class="inline-block ">
+                    <img src="/img/cart.jpg" alt="" height="30" width="30">
+                </a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+  <%- body%>
+  <script src="js/app.js"></script>
+</body>
+</html>
